@@ -35,9 +35,9 @@ s=socket.socket()
 s.connect(('localhost',8000))
 while True:
 print(s.recv(1024).decode())
-s.send("acknowledgement recieved from the server".encode())```
-## OUPUT
-![cn 2b](https://github.com/user-attachments/assets/467d0576-097c-4ea2-a678-25b7a08c91ee)
-
+s.send("acknowledgement recieved from the server".encode())
+```
+##OUPUT
+![image](https://github.com/user-attachments/assets/57b884c1-de1d-439b-8962-c18a060ef23c)
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed
